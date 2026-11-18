@@ -1,0 +1,19 @@
+{
+  "services": [
+    {
+      "name": "crm",
+      "url": "http://127.0.0.1:8765/health",
+      "timeout_seconds": 1
+    },
+    {
+      "name": "warehouse",
+      "url": "http://127.0.0.1:8766/health",
+      "timeout_seconds": 1
+    },
+    {
+      "name": "billing",
+      "url": "http://127.0.0.1:8767/health",
+      "timeout_seconds": 1
+    }
+  ]
+}
