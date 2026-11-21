@@ -5,4 +5,4 @@
 
 | Файл | Что в нём |
 |---|---|
-| — | пока пусто |
+| `brain.py` | загружает библиотеку ядра (`sentry_core.dll`, `libsentry_core.dylib` или `libsentry_core.so`), описывает `struct core_info` классом `CoreInfo` с теми же типами и порядком полей, вызывает `core_get_info`, переводит код ошибки в `OSError` и печатает сообщение `agent_started` в формате JSON |
